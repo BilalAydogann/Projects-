@@ -1,0 +1,71 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(216, 216, 216);
+}
+
+/*----------------------------------------------------- CONTAİNER KAPSAYİCİ  ---------------------------------------------*/
+.container 
+{
+    position: relative;
+    width: 1110px;
+    height: 349px;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 200px;
+}
+/*----------------------------------------------------- LEFT KAPSAYİCİ ---------------------------------------------*/
+.left-container 
+{
+    position: absolute;
+    width: 508px;
+    height: 184px;
+    margin-left: 96px;
+    margin-top: 83px
+}
+
+.left-container .title
+{
+    font-family: "Montserrat", sans-serif;
+    width: 532px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+.btn 
+{
+    font-family: "Montserrat", sans-serif;
+    width: 280px;
+    height: 64px;
+    border-radius: 3px;
+    padding: 18px 72px 16px 72px;
+    background-color: #DC3545;
+    color: white;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+}
+
+/*----------------------------------------------------- RİGHT İMG ---------------------------------------------*/
+.img 
+{
+    float: right;
+    margin-top: 36px;
+}

@@ -1,0 +1,103 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+        background-color: rgb(1, 0, 59);
+}
+
+/*------------------------------------------------- CONTAİNER KAPSAYİCİ ------------------------------------------------------*/
+.container 
+{
+    position: relative;
+    width: 1440px;
+    height: 822px;
+    margin: 0 auto;
+}
+/*-------------------------------------- LEFT SOL TARAF CONTENT İÇERİK ------------------------------------------------------*/
+.left-content
+{
+    width: 500px;
+    height: 392px;
+    margin-left: 165px;
+    margin-top: 248px;    
+}
+
+.page-title
+{
+    width: 500px;
+    height: 140px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.7px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.title-text
+{
+    width: 500px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+a 
+{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.page-btn 
+{
+    width: 500px;
+    height: 344px;
+    font-size: x-large;
+    width: 345px;
+    height: 64px;
+    border-radius: 3px;
+    padding: 16px 72px 16px 72px;
+    background-color: #DC3545;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.logo
+{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.planning-title
+{
+    position: absolute;
+    display: inline-block;
+    width: 104px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+/*-------------------------------------------- RİGHT İMG --------------------------------------------------------------------*/
+.img 
+{
+    width: 730px;
+    height: 622px;
+    margin-left: 675px;
+    margin-top: -450px;
+}

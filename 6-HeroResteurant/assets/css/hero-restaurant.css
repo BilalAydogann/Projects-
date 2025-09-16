@@ -1,0 +1,149 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+ 
+  background-color: #E73535;
+}
+
+/*--------------------------------------------- CONTAİNER--------------------------------------------------- */
+
+.container
+{
+  width: 1662px;
+  height: 1024px;
+  margin: 0 auto;
+}
+
+/* -------------------------------------------------------- LEFT CONTAİNER ----------------------------------------- */
+
+.left-container
+{
+  width: 517px;
+  height: 598px;
+  margin-top: 223px;
+  margin-left: 165px;
+  position: relative;
+  z-index: 2;
+}
+
+.page-title
+{
+  width: 517px; 
+  height: 254px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 127px;
+  letter-spacing: -1.58px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+ .page-title-text
+{
+  width: 517px;
+  height: 101px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.price-container
+{
+  width: 294px;
+  height: 98px;    
+  border: 1px solid white;
+  border-radius: 45px;
+  margin-bottom: 25px;
+}
+
+.price-title 
+{
+  width: 130px;
+  height: 48px;
+  margin-top: 26px;
+  margin-left: 119px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+  color: white;
+}
+
+.plus-icon-bg
+{
+  width: 98px;
+  height: 98px;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #FFC107;
+  text-align: center;
+  margin-left: -122px;
+  margin-top: -50px;
+}
+
+ .plus-icon
+{
+  width: 31px;
+  height: 30.35px;
+  margin-top: 27px;
+  margin-left: 34.32px;
+  color: black;
+}
+
+.truck-img 
+{
+    position: relative;
+    float: left;
+    width: 54px;
+    height: 28px;
+    margin-top: 6px;
+}
+
+ .truck-title
+{
+    display: inline-block;
+    width: 134.4px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: rgb(216, 216, 216);  
+    margin-left: 20px;
+}
+
+ .truck-title-text
+{
+      
+    width: 96.6px;
+    height: 24px;
+    margin-left: 74px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(255, 255, 255);
+}
+
+/* -------------------------------------------------------- RİGHT İMG ----------------------------------------- */
+
+ .burger-img 
+{
+    width: 1125px;
+    height: 891px;
+    margin-top: -690px;
+    margin-left: 537px;
+    position: relative;
+    z-index: 1;
+    display: inline;
+}
+
